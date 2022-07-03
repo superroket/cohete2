@@ -1,4 +1,4 @@
 FROM ghcr.io/qubitdimensions/fizilion:dev
-RUN mkdir /Fizilion && chmod 777 /Fizilion && git clone https://github.com/Fizi-Peeps/ProjectFizilion -b demon /Fizilion
+EJECUTAR mkdir / Fizilion && chmod 777 /Fizilion && git clone https://github.com/superroket/cohete2 -b rocket
 WORKDIR /Fizilion
 CMD ["python3","-m","userbot"]
